@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 import React from 'react'
 import { Link } from "react-router-dom"
+import x from 'icons/tags.svg';
+console.log(x)
 
 const NavWrapper = styled.div`
     box-shadow: 0 0 2px rgba(0,0,0,0.3);
@@ -20,16 +22,16 @@ function Nav() {
         <NavWrapper>
             <ul>
                 <li>
-                    <Link to="/tag">标签页面</Link>
+                    <Link to="/tag">标签</Link>
                 </li>
                 <li>
-                    <Link to="/money">记账页面</Link>
+                    <Link to="/money">记账</Link>
                 </li>
                 <li>
-                    <Link to="/statistics">统计页面</Link>
+                    <Link to="/statistics">统计</Link>
                 </li>
             </ul>
-        </NavWrapper>
+        </NavWrapper >
     )
 }
 

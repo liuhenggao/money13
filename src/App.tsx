@@ -61,15 +61,15 @@ function NoMatch() {
 }
 
 function Tags() {
-  return <h2>标签页面</h2>;
+  return <h2>标签</h2>;
 }
 
 function Money() {
-  return <h2>记账页面</h2>;
+  return <h2>记账</h2>;
 }
 
 function Statistics() {
-  return <h2>统计页面</h2>;
+  return <h2>统计</h2>;
 }
 
 export default App;
