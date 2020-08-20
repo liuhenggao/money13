@@ -1,0 +1,24 @@
+
+.popUp{
+    animation: popup .3s linear;
+    display: block;
+    bottom: 0;
+}
+
+@keyframes popup{
+    0% {
+        bottom: -100%;
+    }
+    50% {
+        bottom: -50%;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+.popDown{
+    /* animation: popdown .3s linear;
+    bottom: -100%; */
+    display: none;
+}
